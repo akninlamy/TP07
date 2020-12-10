@@ -1,0 +1,16 @@
+##Activité 1: Analyse d'un dipôle électrique
+
+#Q1:
+
+def lit_dipole(fichier):
+    f = open(fichier,'r')
+    I = []
+    U = []
+    tension = False
+    intensité = False
+    for ligne in f:
+        if intensité == True:
+            I.append(ligne.strip('(\n)')
+        if tension == True:
+            U.append(ligne.strip())
+            
